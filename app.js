@@ -32,7 +32,7 @@ function toModal(tech) {
       <div class="actions">
       <div> 
       <input type="checkbox" id="done" ${checked} data-type="${tech.type}"/>
-      <label for="done">Выучил</label>
+      <label for="done">Готово</label>
       </div>
         <button class="delete" data-type="${tech.type}" id="delete">Удалить</button>
       </div>
