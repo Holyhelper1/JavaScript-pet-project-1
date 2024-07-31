@@ -71,7 +71,7 @@ function init() {
 
 function renderCards() {
   if (technologies.length === 0) {
-    content.innerHTML = '<p class="empty">Технологий пока нет</p>';
+    content.innerHTML = '<p class="empty">Задач пока нет</p>';
   } else content.innerHTML = technologies.map(toCard).join("");
 }
 
